@@ -1,0 +1,20 @@
+{
+  "name": "mongoose-sanitize-json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adarshasnah/mongoose-sanitize-json.git"
+  },
+  "author": "Adarsh Hasnah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adarshasnah/mongoose-sanitize-json/issues"
+  },
+  "homepage": "https://github.com/adarshasnah/mongoose-sanitize-json#readme",
+  "dependencies": {
+    "mongoose": "^4.1.7"
+  }
+}
