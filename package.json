@@ -2,8 +2,10 @@
   "name": "mongoose-sanitize-json",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {},
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/adarshasnah/mongoose-sanitize-json.git"
@@ -16,5 +18,10 @@
   "homepage": "https://github.com/adarshasnah/mongoose-sanitize-json#readme",
   "dependencies": {
     "mongoose": "^4.1.7"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.2",
+    "mockgoose": "^4.0.1",
+    "should": "^7.1.0"
   }
 }
