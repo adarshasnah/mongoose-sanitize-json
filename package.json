@@ -1,27 +1,28 @@
 {
-  "name": "mongoose-sanitize-json",
-  "version": "1.0.0",
-  "description": "",
-  "main": "lib/index.js",
-  "scripts": {
-    "test": "mocha"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/adarshasnah/mongoose-sanitize-json.git"
-  },
-  "author": "Adarsh Hasnah",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/adarshasnah/mongoose-sanitize-json/issues"
-  },
-  "homepage": "https://github.com/adarshasnah/mongoose-sanitize-json#readme",
-  "dependencies": {
-    "mongoose": "^4.1.7"
-  },
-  "devDependencies": {
-    "mocha": "^2.3.2",
-    "mockgoose": "^4.0.1",
-    "should": "^7.1.0"
-  }
+    "name": "mongoose-sanitize-json",
+    "version": "1.0.0",
+    "description": "Mongoose plugin to replace _id by id and remove __v, __t when toJSON is called on a mongoose document",
+    "main": "lib/index.js",
+    "scripts": {
+        "test": "mocha"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/adarshasnah/mongoose-sanitize-json.git"
+    },
+    "author": "Adarsh Hasnah",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/adarshasnah/mongoose-sanitize-json/issues"
+    },
+    "homepage": "https://github.com/adarshasnah/mongoose-sanitize-json#readme",
+    "keywords": ["mongoose", "plugin", "sanitize"],
+    "dependencies": {
+        "mongoose": "^4.1.7"
+    },
+    "devDependencies": {
+        "mocha": "^2.3.2",
+        "mockgoose": "^4.0.1",
+        "should": "^7.1.0"
+    }
 }
