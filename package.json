@@ -17,8 +17,8 @@
     },
     "homepage": "https://github.com/adarshasnah/mongoose-sanitize-json#readme",
     "keywords": ["mongoose", "plugin", "sanitize"],
-    "dependencies": {
-        "mongoose": "^4.1.7"
+    "peerDependencies": {
+        "mongoose": "4.x"
     },
     "devDependencies": {
         "mocha": "^2.3.2",
